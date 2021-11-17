@@ -1,0 +1,41 @@
+.Pokecard {
+  width: 180px;
+  height: 180px;
+  background-color: lightgray;
+  margin: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.Pokecard-title {
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 1.5rem;
+  color: rgb(119, 88, 245);
+  text-transform: capitalize;
+}
+
+.Pokecard-image {
+  max-height: 100px;
+  max-width: 1000px;
+}
+
+.Pokecard-data {
+  padding: 0;
+  margin: 0px 10px 0px 0px;
+  color: black;
+  font-size: 1rem;
+}
+
+.Pokecard-exp {
+  margin: 0;
+  padding: 0;
+}
+.Pokecard-type {
+  margin: 0;
+  padding: 0;
+}
